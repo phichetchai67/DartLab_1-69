@@ -18,6 +18,16 @@ void main() {
   print(studentScores);
   print(studentScores.keys);
   print(studentScores.values);
-  
-  
+
+  studentScores.forEach((subject,score){
+    if (subject.toLowerCase().contains('a')){
+    print('$subject');
+  }
+  });
+  studentScores.forEach((subject,score){
+    if (score > 50){
+    print('$subject : $score');
+  }
+  });
+
 }
