@@ -8,7 +8,7 @@ void main() {
   print('Middle name length:${city.length}');
 
   print('Middle name before:$middleName');
-
+  
   middleName ??= 'N/A';
   print('Middle name after:$middleName');
 
