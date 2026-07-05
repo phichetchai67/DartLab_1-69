@@ -18,5 +18,5 @@ void main() {
     print('Triangle (0.5 x base(15) x height(7))= $triangle');
 
     double cylinder = cylinderVolume(8.0, 10.0);
-    print('Cylinder (2 x pi x radius(8) x height(10))= $cylinder');
+    print('Cylinder (pi x radius(8) x radius(8) x height(10))= $cylinder');
 }
